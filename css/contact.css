@@ -1,0 +1,47 @@
+.containerCard {
+  position: relative;
+  width: 75%;
+
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.containCard {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+
+}
+
+.imgCard {
+  
+  grid-column-start:1 ;
+  grid-row-start:1 ;
+  grid-column-end:3 ;
+  grid-row-end:3 ;
+  display: flex;
+  align-items: center;transform: rotate(200deg);
+  
+}
+
+.txtCard {
+  
+  grid-column-start:3 ;
+  grid-row-start:1 ;
+  grid-column-end: 3;
+  grid-row-end:3;
+
+}
+
+.contactCard {
+  
+  color: #302c28;
+  grid-column-start:1 ;
+  grid-row-start:3 ;
+  grid-column-end: 3;
+ 
+}
